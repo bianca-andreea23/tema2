@@ -1,0 +1,319 @@
+body {
+    margin: 0%;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-centru {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coloana-30 {
+    width: 30%;
+    background-color: #89C2D9;
+    padding: 20px;
+    text-align: justify;
+}
+
+.coloana-70 {
+    width: 70%;
+    background-color: #89C2D9;
+    padding: 20px;
+    text-align: justify;
+}
+
+.coloana-50 {
+    width: 70%;
+    background-color: #001845;
+    padding: 20px;
+    text-align: justify;
+}
+
+.coloana-25 {
+    width: 25%;
+    background-color: #89C2D9;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+
+
+nav {
+    background-color: #001845;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    display: flex
+}
+
+nav a {
+    text-decoration: none;
+    color: #A9D6E5;
+    margin-right: 50px;
+    font-size: 25px;
+    font-family: "Young Serif", serif;
+}
+
+h1 {
+    font-size: 75px;
+    text-align: center;
+    color: #61A5C2;
+    font-family: "Chonburi", serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 5px;
+    margin-top: 0%;
+    font-size: 100px;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-bottom: 0%;
+    margin-top: 0;
+    padding-top: 10px;
+    color: #001233;
+    text-align: center;
+}
+
+.subtitlu {
+    color: #61A5C2;
+    text-shadow: 2px 2px 4px black;
+}
+
+h3 {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-bottom: 0%;
+    margin-top: 0;
+    padding-top: 10px;
+    color: #001233;
+}
+
+h4 {
+    font-style: italic;
+    font-family: "Chonburi", serif;
+    font-size: 30px;
+    margin-top: 0%;
+    font-weight: 600;
+    color: #001233;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #001233;
+}
+
+.font-light {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 22px;
+    font-family: "Young Serif", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: #61A5C2;
+}
+
+
+
+.lista-sarah {
+    font-family: "Young Serif", serif;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #001233;
+}
+
+.lista-preturi {
+    font-family: "Young Serif", serif;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0px;
+    color: #001233;
+    display: inline-block;
+
+}
+
+
+.bg-index {
+
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsla(206, 97%, 15%, 1);
+    background: radial-gradient(circle, hsla(206, 97%, 15%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(206, 97%, 15%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(206, 97%, 15%, 1) 0%, hsla(229, 28%, 88%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#012A4A", endColorstr="#D8DBE9", GradientType=1)
+}
+
+.bg-echipa {
+    background-image: url('fundal-echipa-edit.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bg-proiecte {
+    background-image: url('fundal-proiecte.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bg-contact {
+    background-image: url('fundal-contact.png');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    background-color: #001845;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+.icons {
+    height: 32px;
+    padding: 20px;
+}
+
+
+
+.fundal-deschis {
+    background-color: #89C2D9;
+    padding-bottom: 20px;
+
+}
+
+.fundal-inchis {
+    background-color: #001845;
+}
+
+
+
+.divider {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: #89C2D9;
+}
+
+div {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.logo {
+    height: 64px;
+    padding: 20px;
+}
+
+.logo-nav {
+    height: 50px;
+    margin-left: 10px;
+
+}
+
+.icon-contact {
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 5;
+    height: 30px;
+}
+
+.poze-proiecte {
+    width: 100%;
+}
+
+
+
+
+
+.contact {
+    border-top: 10px;
+    padding-right: 0;
+    border-bottom: 10px;
+    padding-left: 0;
+    background-color: #001233;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 300px;
+    align-items: center;
+
+}
+
+.text-light {
+    color: #A9D6E5;
+}
+
+.h2-contact {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 0%;
+    margin-top: 0;
+    color: #001233;
+    text-align: center;
+}
+
+.h3-contact {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-bottom: 0%;
+    margin-top: 0;
+    padding-top: 10px;
+    color: #001233;
+    text-align: center;
+}
+
+.centru {
+    text-align: center;
+}
+
+.card {
+    outline: 0.5rem solid #01497C;
+}
